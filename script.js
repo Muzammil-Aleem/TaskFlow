@@ -58,7 +58,7 @@ function showSection(target) {
     sections.forEach(sec => {
       if (sec.dataset.section === target) {
         sec.classList.remove('hidden');
-        sec.classList.add('fullscreen'); // Fill full height
+        sec.classList.add('fullscreen');
       } else {
         sec.classList.add('hidden');
         sec.classList.remove('fullscreen');
